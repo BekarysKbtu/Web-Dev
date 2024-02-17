@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List Site</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f2f2f2;
+        }
+        .todo-container {
+            width: 300px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+        .todo-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .todo-item input[type="checkbox"] {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="todo-container">
+    <h2>To do list</h2>
+    <input type="text" id="todoInput" placeholder="Enter todo">
+    <button onclick="addTodo()">Add</button>
+    <ul id="todoList"></ul>
+</div>
+
+<script>
+    function addTodo() {
+        var inputValue = document.getElementById("todoInput").value;
+        if (inputValue === '') {
+            alert("You must write something!");
+        } else {
+            var li = document.createElement("li");
+            var checkbox = document.createElement("input");
+            checkbox.type = "checkbox";
+            checkbox.onclick = function() {
+                li.style.textDecoration = this.checked ? "line-through" : "none";
+            };
+            var removeButton = document.createElement("button");
+            removeButton.innerHTML = '<i class="fas fa-trash-alt"></i>';
+            removeButton.onclick = function() {
+                li.remove();
+            };
+            li.appendChild(checkbox);
+            li.appendChild(document.createTextNode(inputValue));
+            li.appendChild(removeButton);
+            document.getElementById("todoList").appendChild(li);
+            document.getElementById("todoInput").value = "";
+        }
+    }
+</script>
+</body>
+</html>
