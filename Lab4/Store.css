@@ -1,0 +1,126 @@
+#head{
+    text-align: center;
+    font-size: 80px;
+    width: 40%;
+    height: 100px;
+    background: rgb(66, 209, 245);
+    border-radius: 20px;
+    color: white;
+    margin: 0px 0px 0px 440px;
+    font-family: monospace;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.device-label {
+    position: relative;
+    top: -20px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.image {
+    max-width: 300px;
+    max-height: 300px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.button-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.button {
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100px;
+    background-color: rgb(66, 209, 245);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+#currentImage10{
+    max-width: 300px;
+    max-height: 300px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    margin-left: 550px;
+}
+#currentImage11{
+    max-width: 300px;
+    max-height: 300px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    margin-left: 550px;
+}
+
+.iPhone15ProMax{
+  color: rgb(147,141,135);
+}
+
+.iPhone15{
+    color: rgb(132,211,239);
+}
+
+.samsungS24{
+    color: rgb(202,216,193);
+}
+
+.samsungS24Ultra{
+    color: rgb(181,173,158);
+}
+
+.googlePixel8{
+    color: rgb(196,226,209);
+}
+
+.googlePixel8Pro{
+    color: rgb(112,169,223);
+}
+
+.nothingPhone2{
+    color: rgb(71, 72, 77);
+}
+
+.macBookAir13{
+    color: rgb(200,164,217);
+}
+
+.macBookPro16{
+    color: rgb(61,63,71);
+}
+
+.mateBook{
+    color: rgb(1,225,194);
+}
+
+.lenovo{
+    color: rgb(151,199,208);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+
