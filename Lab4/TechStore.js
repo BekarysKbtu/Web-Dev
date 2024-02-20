@@ -77,13 +77,11 @@ const lenovoImages = [
 
 function showImage(index, device) {
     let images, currentIndex, currentImage;
-    // Здесь ошибка - нужно использовать строгое равенство ('===') вместо простого равенства ('==')
-    // '===' более предпочтителен, так как он сравнивает и значения, и типы данных
+    
     if (device === 'iphone15ProMax') {
         images = iPhone15ProMaxImages;
         currentIndex = currentIndex1;
-        // Здесь ошибка - вы выбрали неправильный ID элемента
-        // Вам нужно использовать 'currentImage1' вместо 'currentImage1'
+        
         currentImage = document.getElementById('currentImage1');
     } else if (device === 'samsungS24') {
         images = samsungS24Images;
@@ -92,8 +90,7 @@ function showImage(index, device) {
     } else if (device === 'pixel8') {
         images = googlePixel8Images;
         currentIndex = currentIndex3;
-        // Здесь ошибка - вы выбрали неправильный ID элемента
-        // Вам нужно использовать 'currentImage3' вместо 'currentImage1'
+        
         currentImage = document.getElementById('currentImage3');
     } else if (device === 'pixel8Pro') {
         images = googlePixel8ProImages;
@@ -134,9 +131,9 @@ function showImage(index, device) {
 
 
     if (index < 0) {
-        index = images.length - 1; // Переключение на последнее изображение, если текущее - первое
+        index = images.length - 1; 
     } else if (index >= images.length) {
-        index = 0; // Переключение на первое изображение, если текущее - последнее
+        index = 0; 
     }
 
     currentImage.src = images[index];
@@ -220,7 +217,7 @@ function nextImage(device) {
     }
 }
 
-// Показываем первое изображение каждого устройства при загрузке страницы
+
 showImage(currentIndex1, 'iphone15ProMax');
 showImage(currentIndex2, 'samsungS24');
 showImage(currentIndex3, 'pixel8');
