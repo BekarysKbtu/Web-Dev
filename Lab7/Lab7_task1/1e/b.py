@@ -1,6 +1,7 @@
 def power(a,n):
     return a ** n
 
-a, n = map(int, input().split())
+a = int(input())
+n = int(input())
 
 print(power(a,n))
