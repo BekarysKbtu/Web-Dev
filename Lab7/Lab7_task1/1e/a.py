@@ -8,5 +8,8 @@ def min_value(a, b, c, d):
         min_val = d
     return min_val
 
-a, b, c, d = map(int, input().split())
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
 print(min_value(a, b, c, d))
