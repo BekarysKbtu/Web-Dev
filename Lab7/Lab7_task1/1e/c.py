@@ -1,5 +1,6 @@
 def xor(x, y):
     return int((x or y) and not (x and y))
 
-x, y = map(int, input().split())
+x = int(input())
+y = int(input())
 print(xor(x, y))
