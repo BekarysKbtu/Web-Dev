@@ -1,0 +1,203 @@
+{
+  "products":[
+    { 
+      "id": 1,
+      "name": "iPhone 15 Pro Max",
+      "price": 1350,
+      "description": "The Lightning connector has been upgraded to the fast USB Type-C. The A17 Pro processor is much more powerful than previous models, making it possible to play games with greater comfort. Titanium facets that make the iPhone lighter and more protected.",
+      "category": "Smartphone",
+      "is_active": true,
+      "quantity": 10
+     },
+  
+     {
+     "id": 2,
+     "name": "Google Pixel 8",
+     "price": 650,
+     "description": "New AI features include cropping unnecessary objects from photos, stylizing text, and translating during a call. The new improved processor provides better protection for the display.",
+     "category": "Smartphone",
+     "is_active": true,
+     "quantity": 7
+     },
+
+    {
+     "id": 3,
+     "name": "Xiaomi 14 Pro",
+     "price": 1250,
+     "description": "A new and improved processor. The titanium facets make the smartphone lighter and more secure. The enhanced cameras take very cool shots. AI features are added.",
+     "category": "Smartphone",
+     "is_active": true,
+     "quantity": 13
+    },
+
+    {
+     "id": 4,
+     "name": "Samsung Galaxy Z Flip5",
+     "price": 800,
+     "description": "There is no gap between the two screens. The cameras are good. Adding a Galaxy AI feature. The front screen even more fascinating, as it allows you to take selfies using the rear camera.",
+     "category": "Smartphone",
+     "is_active": true,
+     "quantity": 20
+    },
+
+    {
+     "id": 5,
+     "name": "Huawei Mate X3",
+     "price": 1600,
+     "description": "Premium foldable smartphone featuring a sleek design, a high-resolution flexible display, and advanced camera capabilities. It offers powerful performance, long battery life, and the latest connectivity options, making it a standout device in the foldable phone market.",
+     "category": "Smartphone",
+     "is_active": true,
+     "quantity": 16
+    },
+  
+    {
+     "id": 6,
+     "name": "Apple Watch Ultra 2",
+     "price": 850,
+     "description": "This watch is a rugged, high-end smartwatch designed for extreme sports and adventure. It features a durable titanium case, an always-on Retina display, extended battery life, advanced health and fitness tracking, and enhanced environmental sensors.",
+     "category": "Smart Watch",
+     "is_active": true,
+     "quantity": 21
+    },
+
+    {
+     "id": 7,
+     "name": "Samsung Galaxy Watch 6",
+     "price": 250,
+     "description": "This watch  is a versatile smartwatch designed for everyday use. It features a sleek design with a vibrant AMOLED display, advanced health and fitness tracking, including ECG and blood pressure monitoring, and improved battery life.",
+     "category": "Smart Watch",
+     "is_active": true,
+     "quantity": 15
+    },
+
+    {
+     "id": 8,
+     "name": "Google Pixel Watch",
+     "price": 300,
+     "description": "This watch is a sleek and stylish smartwatch that integrates seamlessly with Google ecosystem. It features a vibrant circular AMOLED display, advanced health and fitness tracking powered by Fitbit, and various smart functionalities such as notifications, Google Assistant",
+     "category": "Smart Watch",
+     "is_active": true,
+     "quantity": 6
+    },
+
+    {
+     "id": 9,
+     "name": "Huawei Watch GT 4",
+     "price": 150,
+     "description": "This watch is a stylish and versatile smartwatch and impressive battery life, lasting up to two weeks on a single charge. It features a vibrant AMOLED display, advanced health and fitness tracking, including heart rate monitoring, SpO2 measurement, and sleep tracking.",
+     "category": "Smart Watch",
+     "is_active": true,
+     "quantity": 14
+    },
+
+    {
+     "id": 10,
+     "name": "Xiaomi Smart Band 8",
+     "price": 40,
+     "category": "Smart Watch",
+     "is_active": true,
+     "quantity": 25,
+     "description": "This band is an affordable and lightweight fitness tracker with a sleek design.With up to 14 days of battery life, water resistance, and smart notifications, it provides essential health insights and connectivity in a compact form."
+    },
+  
+    {
+     "id": 11,
+     "name": "AirPods Max",
+     "price": 550,
+     "description": "This headphone is Apple high-end over-ear headphones with excellent audio quality, active noise cancellation, and seamless integration with Apple devices via Bluetooth. They feature a sleek design, spatial audio, and up to 20 hours of battery life.",
+     "category": "Earphone",
+     "is_active": true,
+     "quantity": 10
+    },
+
+    {
+     "id": 12,
+     "name": "Sony WH-1000XM4",
+     "price": 250,
+     "description": "This headphone is top-tier wireless headphones known for their outstanding noise cancellation, high-quality sound, and long battery life up to 30 hours. They also feature touch controls and are perfect for travel and music enthusiasts.",
+     "category": "Earphone",
+     "is_active": true,
+     "quantity": 17
+    },
+
+    {
+     "id": 13,
+     "name": "Apple AirPods 3",
+     "price": 180,
+     "description": "This earphone is the latest wireless earbuds from Apple, featuring improved sound quality, spatial audio, and a comfortable fit. They also include Active Noise Cancellation and support for Siri voice commands.",
+     "category": "Earphone",
+     "is_active": true,
+     "quantity": 19
+    },
+
+    {
+     "id": 14,
+     "name": "Nothing Ear 2",
+     "price": 250,
+     "description": "This earphone is stylish wireless earbuds known for their transparent design, quality sound, active noise cancellation, and touch controls. They offer a unique blend of aesthetics and functionality in the earbud market.",
+     "category": "Earphone",
+     "is_active": true,
+     "quantity": 11
+    },
+
+    {
+     "id": 15,
+     "name": "Realme Buds T100",
+     "price": 30,
+     "description": "This earphone is budget-friendly wired earphones known for their lightweight design, clear sound quality, and comfortable fit. They offer basic functionality with an in-line remote for easy control of music and calls, making them ideal for everyday use.",
+     "category": "Earphone",
+     "is_active": true,
+     "quantity": 21
+    },
+    
+    {
+     "id": 16,
+     "name": "Apple MagSafe Battery Pack",
+     "price": 150,
+     "description": "This powerbank is a compact and magnetic wireless charging accessory designed for iPhone users. It provides on-the-go power with a seamless attachment to iPhone 12 models and later via MagSafe technology, offering convenient charging without the need for cables.",
+     "category": "Powerbank",
+     "is_active": true,
+     "quantity": 12
+    },
+
+    {
+     "id": 17,
+     "name": "Baseus PPCX070005",
+     "price": 50,
+     "description": "This powerbank  is a portable power bank known for its high capacity and compact design. It offers reliable charging for various devices, featuring multiple ports for simultaneous charging and fast recharging capabilities. Ideal for users needing portable power on the go.",
+     "category": "Powerbank",
+     "is_active": true,
+     "quantity": 10
+    },
+
+    {
+     "id": 18,
+     "name": "Solar Charge 111",
+     "price": 15,
+     "description": "This powerbank has a lot of energy, and can charge by sun. It is very needable to travelling.",
+     "category": "Powerbank",
+     "is_active": true,
+     "quantity": 8
+    },
+
+    {
+     "id": 19,
+     "name": "Xiaomi Mi Pocket Edition Pro",
+     "price": 25,
+     "description": "This powerbank  is a compact and portable power bank known for its sleek design and high capacity. It offers fast charging capabilities and is compatible with a wide range of devices, making it an ideal choice for users needing reliable power on the go.",
+     "category": "Powerbank",
+     "is_active": true,
+     "quantity": 19
+    },
+
+    {
+     "id": 20,
+     "name": "Union UP06",
+     "price": 20,
+     "description": "This powerbank has wireless charging by MagSafe and very cheap in this category. Also have a lot of energy, so you can charge your iPhone 3 times.",
+     "category": "Powerbank",
+     "is_active": true,
+     "quantity": 11
+    }
+  ]
+}
