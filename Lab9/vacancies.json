@@ -1,0 +1,177 @@
+[
+    {
+      "id": 1,
+      "name": "Software Developer",
+      "description": "Responsible for developing and maintaining software applications.",
+      "salary": 70000.0,
+      "company": 1
+    },
+    {
+      "id": 2,
+      "name": "Data Scientist",
+      "description": "Analyze and interpret complex data to help companies make decisions.",
+      "salary": 90000.0,
+      "company": 2
+    },
+    {
+      "id": 3,
+      "name": "Project Manager",
+      "description": "Oversee and coordinate projects to ensure they are completed on time and within budget.",
+      "salary": 80000.0,
+      "company": 1
+    },
+    {
+      "id": 4,
+      "name": "Graphic Designer",
+      "description": "Create visual content for digital and print media.",
+      "salary": 50000.0,
+      "company": 3
+    },
+    {
+      "id": 5,
+      "name": "Systems Analyst",
+      "description": "Analyze and design information systems to solve business problems.",
+      "salary": 75000.0,
+      "company": 2
+    },
+    {
+      "id": 6,
+      "name": "Network Engineer",
+      "description": "Design and implement computer networks.",
+      "salary": 85000.0,
+      "company": 4
+    },
+    {
+      "id": 7,
+      "name": "Marketing Specialist",
+      "description": "Develop and implement marketing strategies.",
+      "salary": 60000.0,
+      "company": 3
+    },
+    {
+      "id": 8,
+      "name": "HR Manager",
+      "description": "Oversee recruitment, training, and employee relations.",
+      "salary": 70000.0,
+      "company": 1
+    },
+    {
+      "id": 9,
+      "name": "Web Developer",
+      "description": "Develop and maintain websites.",
+      "salary": 65000.0,
+      "company": 5
+    },
+    {
+      "id": 10,
+      "name": "Database Administrator",
+      "description": "Manage and maintain database systems.",
+      "salary": 78000.0,
+      "company": 4
+    },
+    {
+      "id": 11,
+      "name": "Technical Support Specialist",
+      "description": "Provide technical assistance to customers and clients.",
+      "salary": 50000.0,
+      "company": 5
+    },
+    {
+      "id": 12,
+      "name": "Content Writer",
+      "description": "Create written content for various platforms.",
+      "salary": 45000.0,
+      "company": 3
+    },
+    {
+      "id": 13,
+      "name": "QA Engineer",
+      "description": "Test and ensure the quality of software products.",
+      "salary": 70000.0,
+      "company": 1
+    },
+    {
+      "id": 14,
+      "name": "IT Manager",
+      "description": "Oversee the IT department and ensure the smooth operation of technology.",
+      "salary": 90000.0,
+      "company": 2
+    },
+    {
+      "id": 15,
+      "name": "Sales Representative",
+      "description": "Sell products and services to customers.",
+      "salary": 50000.0,
+      "company": 5
+    },
+    {
+      "id": 16,
+      "name": "UX Designer",
+      "description": "Design user experiences for digital products.",
+      "salary": 65000.0,
+      "company": 4
+    },
+    {
+      "id": 17,
+      "name": "Finance Analyst",
+      "description": "Analyze financial data and create reports.",
+      "salary": 80000.0,
+      "company": 2
+    },
+    {
+      "id": 18,
+      "name": "Operations Manager",
+      "description": "Oversee daily operations and ensure efficiency.",
+      "salary": 85000.0,
+      "company": 3
+    },
+    {
+      "id": 19,
+      "name": "Product Manager",
+      "description": "Manage the development and launch of products.",
+      "salary": 90000.0,
+      "company": 1
+    },
+    {
+      "id": 20,
+      "name": "Customer Service Representative",
+      "description": "Assist customers with inquiries and issues.",
+      "salary": 40000.0,
+      "company": 5
+    },
+    {
+      "id": 21,
+      "name": "Business Analyst",
+      "description": "Analyze business processes and identify opportunities for improvement.",
+      "salary": 75000.0,
+      "company": 2
+    },
+    {
+      "id": 22,
+      "name": "Digital Marketing Specialist",
+      "description": "Develop and execute digital marketing campaigns.",
+      "salary": 60000.0,
+      "company": 3
+    },
+    {
+      "id": 23,
+      "name": "Security Analyst",
+      "description": "Ensure the security of the company's information systems.",
+      "salary": 85000.0,
+      "company": 4
+    },
+    {
+      "id": 24,
+      "name": "SEO Specialist",
+      "description": "Optimize websites to improve search engine rankings.",
+      "salary": 55000.0,
+      "company": 5
+    },
+    {
+      "id": 25,
+      "name": "DevOps Engineer",
+      "description": "Ensure the smooth deployment and operation of software applications.",
+      "salary": 85000.0,
+      "company": 1
+    }
+  ]

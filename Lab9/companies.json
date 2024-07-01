@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "name": "Tech Innovators Inc.",
+      "description": "A leading software development company specializing in innovative tech solutions.",
+      "city": "New York",
+      "address": "123 Tech Drive, New York, NY 10001"
+    },
+    {
+      "id": 2,
+      "name": "Data Solutions Ltd.",
+      "description": "Provides comprehensive data analysis and business intelligence services.",
+      "city": "San Francisco",
+      "address": "456 Data Lane, San Francisco, CA 94105"
+    },
+    {
+      "id": 3,
+      "name": "Creative Minds Agency",
+      "description": "A creative agency focused on branding, design, and marketing.",
+      "city": "Los Angeles",
+      "address": "789 Creative Blvd, Los Angeles, CA 90012"
+    },
+    {
+      "id": 4,
+      "name": "Network Pros",
+      "description": "Specialists in network infrastructure and security solutions.",
+      "city": "Chicago",
+      "address": "101 Network Avenue, Chicago, IL 60607"
+    },
+    {
+      "id": 5,
+      "name": "Service Excellence Corp.",
+      "description": "Dedicated to providing top-notch customer service and support.",
+      "city": "Austin",
+      "address": "202 Service Road, Austin, TX 73301"
+    }
+  ]
